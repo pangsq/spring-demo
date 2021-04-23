@@ -1,4 +1,4 @@
-# gs-rest-service-complete
+# gs-rest-service-complete demo
 
 `complete` version of https://github.com/spring-guides/gs-rest-service.git
 
@@ -21,4 +21,12 @@ mvn clean package
 java -jar target/rest.jar
 
 # access the url http://127.0.0.1:8080/greeting
+```
+
+## deployed as a zip(with start.sh)
+
+```
+mvn clean package
+
+# unzip target/rest-dist.zip -d <YOUR APP PATH>
 ```
